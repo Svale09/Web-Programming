@@ -3,3 +3,17 @@ html, body{
     padding: 0;
 }
 
+:root{
+    --primaryColor: #5E3BEE;
+    --headingColor: #282938;
+    --background: #F5FCFF;
+    --pinkColor: #E62872;
+    --bodyColor: #1C1E53;
+}
+
+h1, h2, h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+}
