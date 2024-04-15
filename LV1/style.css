@@ -17,3 +17,81 @@ h1, h2, h3{
     font-weight: 700;
     color: #000000;
 }
+
+p{
+    font-weight: 400;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    width: 100vw;
+    height: 6.25vw;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 5.33333px 80px rgba(0, 0, 0, 0.1);
+}
+
+.nav-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-button{
+    margin: 0;
+    padding: 0;
+    padding-right: 2.222395833vw;
+    font-family: 'Roboto';
+    font-size: 1.1109375vw;
+    color: #000000;
+    text-decoration: none;
+    line-height: 1.6;
+}
+.nav-button:hover,:active{
+    color: var(--primaryColor)
+}
+
+.nav-button #last{
+    padding-right: 0vw;
+}
+
+
+#logo{
+    height: 2.08vw;
+    padding-left: 4.427vw;
+}
+
+.button{
+    margin-right: 4.427vw;
+    font-size: 1.1109375vw;
+    line-height: 1.6vw;
+    border-radius: 0.277vw;
+    padding: 0.966vw 1.5625vw;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: var(--primaryColor);
+    border-color: var(--primaryColor);
+    font-weight: 400;
+}
+
+.button:hover{
+    background-color: var(--primaryColor);
+    color: #FFFFFF;
+}
+
+
+
+
+
+
