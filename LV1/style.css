@@ -16,15 +16,24 @@ h1, h2, h3{
     font-style: normal;
     font-weight: 700;
     color: #000000;
+    margin: 0vw;
+}
+
+h1{
+    font-size: 3.889vw;
+    line-height: 4.687vw;
+}
+
+h3{
+    font-size: 1.125vw;
+    line-height: 1.6vw;
 }
 
 p{
     font-weight: 400;
-}
-
-body{
-    display: flex;
-    flex-direction: column;
+    font-size: 1.1109375vw;
+    line-height: 1.6vw;
+    margin: 0vw;
 }
 
 .navbar{
@@ -32,14 +41,13 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 6.25vw;
     left: 0px;
     top: 0px;
-    background: #FFFFFF;
     box-shadow: 0px 5.33333px 80px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
 }
 
 .nav-buttons{
@@ -56,40 +64,78 @@ body{
     font-size: 1.1109375vw;
     color: #000000;
     text-decoration: none;
-    line-height: 1.6;
+    line-height: 1.6vw;
 }
-.nav-button:hover,:active{
+.nav-button:hover{
     color: var(--primaryColor)
 }
-
-.nav-button #last{
-    padding-right: 0vw;
+.nav-button:active{
+    color: var(--primaryColor)
 }
-
 
 #logo{
     height: 2.08vw;
     padding-left: 4.427vw;
 }
 
-.button{
+.contact-btn{
     margin-right: 4.427vw;
     font-size: 1.1109375vw;
     line-height: 1.6vw;
+    width: fit-content;
+
+    border: 1.33px solid var(--primaryColor);
     border-radius: 0.277vw;
     padding: 0.966vw 1.5625vw;
     text-decoration: none;
-    background-color: #FFFFFF;
+    background-color: transparent;
     color: var(--primaryColor);
     border-color: var(--primaryColor);
     font-weight: 400;
-    border-width: 1.33px;
+    
 }
 
-.button:hover{
+.contact-btn:hover{
     background-color: var(--primaryColor);
     color: #FFFFFF;
 }
+
+.introduction{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--background);
+    width: 100vw;
+}
+
+#intro-body{
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    justify-content: center;
+    margin: 12.1875vw 0vw 12.1875vw 4.427083333vw;
+}
+
+#intro-pic{
+    margin: 6.92vw 6.56vw 6.92vw 0vw;
+    width: 47.760vw;
+    height: auto;
+}
+
+h3#intro{
+    margin-bottom: 1.09375vw;
+    padding: 0;
+}
+
+p#intro{
+    margin: 1.09375vw 0vw 2.778vw 0vw;
+    padding: 0;
+}
+
+#product-design{
+    color: var(--primaryColor);
+}
+
 
 
 

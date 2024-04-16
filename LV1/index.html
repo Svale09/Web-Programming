@@ -14,19 +14,24 @@
 </head>
 <body>
     <div class="navbar">
-        <img src="Images/Logo.png" alt="Logo" id="logo">
+        <img src="Images/Logo.png" alt="Logo" id="logo" loading="lazy">
         <nav class="nav-buttons">
+            <!--TO DO - add the anchors to which these links lead-->
             <a href="index.html" class="nav-button">Home</a>
             <a href="index.html" class="nav-button">Portfolio</a>
             <a href="index.html" class="nav-button">About me</a>
             <a href="index.html" class="nav-button" id="last">Testimonials</a>
         </nav>
-        <button type="button" class="button">
-            Contact Me
-        </button>
+        <a class="contact-btn" href="index.html">Contact Me</a>
     </div>
     <div class="introduction">
-        
+        <div id="intro-body">
+            <h3 id="intro">Hey, I am John</h3>
+            <h1>I create <span id="product-design">product design</span> and brand experience</h1>
+            <p id="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            <a class="contact-btn" id="intro" href="index.html">Get In Touch</a>
+        </div>
+        <img id="intro-pic" src="Images/Group 11 1.png" alt="My picture" loading="lazy">
     </div>
 </body>
 </html>
