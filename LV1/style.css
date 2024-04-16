@@ -285,3 +285,49 @@ p.project-desc{
     margin-left: 0.833vw;
 }
 
+#testimonials{
+    background-color: var(--background);
+    height: fit-content;
+}
+
+.testimony-card{
+    display: flex;
+    flex-direction: column;
+    width: 24vw;
+    padding: 2.222vw;
+    border: 0.06927vw solid #006B6A;
+    border-radius: 0.41666vw;
+}
+
+#testimonial-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5.555729vw 4.427083333vw 0vw 4.427083333vw;
+    padding-bottom: 7.81vw;
+}
+
+.rating{
+    width: 8.0208vw;
+    height: auto;
+    margin-bottom: 2.222vw;
+}
+
+.customer{
+    width: 3.889vw;
+    height: auto;
+    margin-right: 1.1109375vw;
+}
+
+.customer-card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.222vw;
+    align-items: center;
+}
+
+#testimonials-title{
+    margin-left: 4.427083333vw;
+    padding-top: 7.81vw;
+}
+
