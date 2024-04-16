@@ -188,6 +188,39 @@ h2.skill{
     margin-bottom: 1vw;
 }
 
+#about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 6.944vw;
+}
+
+#about-image{
+    width: 42.4479vw;
+    height: auto;
+}
+
+#about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18vw;
+    width: 42.708vw;
+}
+
+#portfolio-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#visit-dribbble{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    background-color: var(--pinkColor);
+}
 
 
 
