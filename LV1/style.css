@@ -15,13 +15,18 @@ h1, h2, h3{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    color: #000000;
+    color: var(--headingColor);
     margin: 0vw;
 }
 
 h1{
     font-size: 3.889vw;
     line-height: 4.687vw;
+}
+
+h2{
+    font-size: 1.6vw;
+    line-height: 2.334vw;
 }
 
 h3{
@@ -135,6 +140,38 @@ p#intro{
 #product-design{
     color: var(--primaryColor);
 }
+
+.skills{
+    margin: 7.81vw 4.427083333vw;
+}
+
+h3#skills{
+    margin-bottom: 1.09375vw;
+}
+
+.skill-icon{
+    height: auto;
+    width: 2.777vw;
+    padding: 0.69427vw;
+    border-radius: 0.5557vw;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5.33333px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card{
+    padding: 1.667vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--background);
+    width: 19.42675vw;
+    height: 14.3225vw;
+    border-radius: 0.5557vw;
+    border-bottom: 4px solid var(--primaryColor);
+}
+
+
+
 
 
 
