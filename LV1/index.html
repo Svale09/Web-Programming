@@ -17,9 +17,9 @@
         <img src="Images/Logo.png" alt="Logo" id="logo" loading="lazy">
         <nav class="nav-buttons">
             <!--TO DO - add the anchors to which these links lead-->
-            <a href="index.html" class="nav-button">Home</a>
-            <a href="index.html" class="nav-button">Portfolio</a>
-            <a href="index.html" class="nav-button">About me</a>
+            <a href="#intro-body" class="nav-button">Home</a>
+            <a href="#portfolio-header" class="nav-button">Portfolio</a>
+            <a href="#about" class="nav-button">About me</a>
             <a href="index.html" class="nav-button" id="last">Testimonials</a>
         </nav>
         <a class="contact-btn" href="index.html">Contact Me</a>
@@ -36,7 +36,7 @@
     <div class="skills">
         <h3 id="skills">My Skills</h3>
         <h1>My Expertise</h1>
-        <div id="skills-row">
+        <div class="skills-row">
             <div class="skill-card">
                 <img class="skill-icon" src="Images/product-chain 1.png" alt="Skill icon - strategy & direction" loading="lazy">
                 <h2 class="skill">Strategy & Direction</h2>
@@ -75,15 +75,39 @@
                 <h1>My Portfolio</h1>
             </div>
             <a href="https://dribbble.com/" target="_blank">
-                <div id="visit-dribbble" >
-                    <img id="dribbble-logo" src="Images/Vector.png" alt="Dribbble logo" loading="lazy">
-                    <p>Visit My Dribbble<p>
-                </div>
+                    <div id="visit-dribbble" >
+                        <img id="dribbble-logo" src="Images/Vector.png" alt="Dribbble logo" loading="lazy">
+                        <p>Visit My Dribbble<p>
+                    </div>
             </a>
         </div>
-        <div id="skills-row">
-            <div class="project-car">
-                <img src="Images/" alt="">
+        <div class="projects-row">
+            <div class="project-card">
+                <img class="project-image" src="Images/Projects/Ahuse.png" alt="Ahuse project app layout image" loading="lazy">
+                <h2 class="project-title">Ahuse</h2>
+                <p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                <a class="dribble-project-link" href="https://dribbble.com/search/ahuse" target="_blank">
+                    <h3 style="color: black;">View in dribble</h3>
+                    <img class="arrow" src="Images/arrow.png" alt="Link arrow" loading="lazy">
+                </a>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="Images/Projects/App_dashboard.png" alt="App Dashboard project app image" loading="lazy">
+                <h2 class="project-title">App Dashboard</h2>
+                <p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                <a class="dribble-project-link" href="https://dribbble.com/search/App-Dashboard" target="_blank">
+                    <h3 style="color: black;">View in dribble</h3>
+                    <img class="arrow" src="Images/arrow.png" alt="Link arrow" loading="lazy">
+                </a>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="Images/Projects/Easy_rent.png" alt="Easy Rent app image" loading="lazy">
+                <h2 class="project-title">Easy Rent</h2>
+                <p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                <a class="dribble-project-link" href="https://dribbble.com/search/Easy-rent" target="_blank">
+                    <h3 style="color: black;">View in dribble</h3>
+                    <img class="arrow" src="Images/arrow.png" alt="Link arrow" loading="lazy">
+                </a>
             </div>
         </div>
     </div>
