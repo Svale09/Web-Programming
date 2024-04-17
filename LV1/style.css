@@ -575,15 +575,15 @@ footer{
     }
 
     .skills{
-        margin: 10vw 3vw;
+        margin: 10vw 0vw;
     }
 
     .skills-row{
         margin: 0vw;
-        padding: 0vw;
+        padding: 1.5vw;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
@@ -619,5 +619,9 @@ footer{
     h2.skill{
         margin-top: 2vw;
         margin-bottom: 2vw;
+    }
+
+    #skills-title{
+        margin-left: 3vw;
     }
 }
