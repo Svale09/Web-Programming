@@ -162,7 +162,7 @@ h3#skills{
     height: auto;
     width: 2.777vw;
     padding: 0.5427vw;
-    border-radius: 0.5557vw;
+    border-radius: 0.75vw;
     background-color: #FFFFFF;
     box-shadow: 0px 5.33333px 5px rgba(0, 0, 0, 0.1);
 }
@@ -251,7 +251,7 @@ h2.skill{
     width: 28.854vw;
     height: fit-content;
     background-color: #FFFFFF;
-    border-radius: 0.5557vw;
+    border-radius: 0.75vw;
     box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.15);
 }
 
@@ -558,7 +558,7 @@ footer{
     .introduction{
         justify-content: space-between;
         align-items: center;
-        padding: 7vw 0vw;
+        padding: 10vw 0vw;
     }
 
     #intro-pic{
@@ -572,5 +572,52 @@ footer{
         padding: 0vw;
         height: fit-content;
         margin-left: 3vw;
+    }
+
+    .skills{
+        margin: 10vw 3vw;
+    }
+
+    .skills-row{
+        margin: 0vw;
+        padding: 0vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .skills-row > div{
+        flex: 42%;
+    }
+
+    .skill-card{
+        padding: 1.8vw 2vw;
+        margin: 4vw 1.5vw;
+        height: fit-content;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        background-color: var(--background);
+        border-radius: 0.75vw;
+        border-bottom: 0.6vw solid var(--primaryColor);
+        box-shadow: 0vw 2vw 2vw 0vw rgba(0, 0, 0, 0.1);
+    }
+
+    .skill-icon{
+        height: auto;
+        width: 5vw;
+        padding: 1vw;
+        border-radius: 1vw;
+        background-color: #FFFFFF;
+        box-shadow: 0vw 1vw 1vw 0vw rgba(0, 0, 0, 0.1);
+    }
+
+    h2.skill{
+        margin-top: 2vw;
+        margin-bottom: 2vw;
     }
 }
