@@ -524,8 +524,8 @@ footer{
         line-height: 3.09vw;
     }
     p{
-        font-size: 2.2vw;
-        line-height: 2.4vw;
+        font-size: 2.3vw;
+        line-height: 3vw;
     }
     .navbar{
         display: flex;
@@ -553,5 +553,24 @@ footer{
 
         border-radius: 0.465vw;
         padding: 1.622vw 2.625vw;
+    }
+
+    .introduction{
+        justify-content: space-between;
+        align-items: center;
+        padding: 7vw 0vw;
+    }
+
+    #intro-pic{
+        width: 47.760vw;
+        height: auto;
+        margin: 0vw;
+    }
+
+    #intro-body {
+        margin: 0vw;
+        padding: 0vw;
+        height: fit-content;
+        margin-left: 3vw;
     }
 }
