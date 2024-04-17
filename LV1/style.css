@@ -253,7 +253,7 @@ h2.skill{
     height: fit-content;
     background-color: #FFFFFF;
     border-radius: 0.75vw;
-    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.15);
+    box-shadow: 0vw 1vw 2vw 0.5vw rgba(0, 0, 0, 0.15);
 }
 
 .project-image{
@@ -688,5 +688,40 @@ footer{
         width: 2.5vw;
         height: auto;
         margin-right: 1vw;
+    }
+
+    #testimonials {
+        margin: 0;
+        padding: 10vw 3vw 10vw 3vw;
+    }
+
+    #testimonials-title {
+        margin: 0vw;
+        margin-bottom: 5vw;
+        padding: 0vw;
+    }
+
+    #testimonial-row {
+        margin: 0vw;
+        padding: 0vw;
+
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .testimony-card {
+        margin: 0vw;
+        width: 86vw;
+        padding: 3vw;
+        margin-bottom: 2vw;
+        border: 0.06927vw solid #006B6A;
+        border-radius: 0.75vw;
+    }
+
+    .customer {
+        width: 7vw;
+        height: auto;
+        margin-right: 2vw;
     }
 }
