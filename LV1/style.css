@@ -478,6 +478,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 91.1458vw;
     margin-left: 9vw;
     margin-right: 9vw;
@@ -489,6 +490,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .bottom-nav-button{
@@ -802,5 +804,19 @@ footer{
         border: 0.2vw solid var(--primaryColor);
         border-radius: 0.75vw;
         padding: 1vw 2vw;
+    }
+
+    .social-logo {
+        width: 2.5vw;
+        height: auto;
+        margin-left: 0.8vw;
+    }
+
+    .eop {
+        margin-bottom: 7vw;
+    }
+
+    .bottom-nav-button {
+        font-size: 2vw;
     }
 }
