@@ -470,7 +470,7 @@ footer{
 
 .social-logo{
     width: 1.6vw;
-    height: 1.6vw;
+    height: auto;
     margin-left: 0.8vw;
 }
 
