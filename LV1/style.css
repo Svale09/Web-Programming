@@ -509,4 +509,32 @@ footer{
     color: var(--primaryColor)
 }
 
+@media screen and (max-width: 700px) {
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        width: 100vw;
+        height: 15vw;
+        box-shadow: 0px 5.33333px 80px rgba(0, 0, 0, 0.1);
+        background: #FFFFFF;
+    }
+    
+    #logo{
+        height: 3.5vw;
+        padding-left: 4.427vw;
+    }
 
+    a.nav-button{
+        font-size: 2vw;
+    }
+    a.contact-btn{
+        font-size: 1.86vw;
+        line-height: 2.688vw;
+
+        border-radius: 0.465vw;
+        padding: 1.622vw 2.625vw;
+    }
+}
