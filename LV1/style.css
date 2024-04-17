@@ -47,8 +47,7 @@ p{
     margin: 0vw;
     padding: 0vw;
     width:  auto;
-    text-wrap: wrap;
-    
+    text-wrap: wrap;  
 }
 
 .navbar{
@@ -510,6 +509,23 @@ footer{
 }
 
 @media screen and (max-width: 700px) {
+    h1{
+        font-size: 4.5vw;
+        line-height: 4.687vw;
+    }
+    
+    h2{
+        font-size: 3.2vw;
+        line-height: 2.334vw;
+    }
+    
+    h3{
+        font-size: 2.3vw;
+        line-height: 1.6vw;
+    }
+    p{
+        font-size: 1.8vw;
+    }
     .navbar{
         display: flex;
         flex-direction: row;
@@ -523,15 +539,15 @@ footer{
     }
     
     #logo{
-        height: 3.5vw;
+        height: 4.016vw;
         padding-left: 4.427vw;
     }
 
     a.nav-button{
-        font-size: 2vw;
+        font-size: 2.22vw;
     }
     a.contact-btn{
-        font-size: 1.86vw;
+        font-size: 2.22vw;
         line-height: 2.688vw;
 
         border-radius: 0.465vw;
