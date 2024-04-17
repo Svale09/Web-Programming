@@ -217,6 +217,7 @@ h2.skill{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 3.889vw 4.427083333vw 0vw 4.427083333vw;
 }
 
@@ -655,5 +656,37 @@ footer{
 
     #about-p1{
         margin-bottom: 2vw;
+    }
+
+    #portfolio-header {
+        margin: 10vw 3vw 5vw 3vw;
+    }
+    
+    .projects-row {
+        margin: 0vw;
+        margin: 0vw 3vw;
+    }
+
+    #portfolio{
+        margin: 10vw 0vw;
+    }
+
+
+    p.project-desc {
+        margin: 1vw 1.6vw 2.5vw 1.6vw;
+    }
+
+    #visit-dribbble {
+        background-color: var(--pinkColor);
+        padding: 1.622vw 2.625vw;
+        border-radius: 0.5557vw;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    #dribbble-logo {
+        width: 2.5vw;
+        height: auto;
+        margin-right: 1vw;
     }
 }
