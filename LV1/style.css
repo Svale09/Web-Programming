@@ -417,6 +417,7 @@ label{
 }
 
 .submit-btn{
+    margin-top: 1.6vw;
     width: 8.8541vw;
     height: 3.6458vw;
     align-self: center;
@@ -442,7 +443,7 @@ label{
 
 footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100vw;
@@ -456,6 +457,56 @@ footer{
     justify-content: space-between;
     align-items: center;
     position: relative;
+    margin-top: 5.555729vw;
+    margin-bottom: 5.555729vw;
+}
+
+.socials{
+    margin-right: 4.427083333vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-logo{
+    width: 1.6vw;
+    height: 1.6vw;
+    margin-left: 0.8vw;
+}
+
+.eop{
+    padding-top: 2.29166vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 91.1458vw;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-bottom: 2.29166vw;
+    border-top: 0.06927vw solid #2829388C;
+}
+
+.tos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom-nav-button{
+    margin: 0;
+    padding: 0;
+    padding-left: 2.222395833vw;
+    font-family: 'Roboto';
+    font-size: 1.1109375vw;
+    color: #000000;
+    text-decoration: none;
+    line-height: 1.6vw;
+}
+.bottom-nav-button:hover{
+    color: var(--primaryColor)
+}
+.bottom-nav-button:active{
+    color: var(--primaryColor)
 }
 
 
