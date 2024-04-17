@@ -106,7 +106,6 @@ p{
     color: var(--primaryColor);
     border-color: var(--primaryColor);
     font-weight: 400;
-    
 }
 
 .contact-btn:hover{
@@ -727,7 +726,7 @@ footer{
 
     #contact {
         margin: 0vw;
-        padding: 10vw 20vw;
+        padding: 10vw 15vw;
     }
 
     #contact-text {
@@ -764,17 +763,44 @@ footer{
     }
 
     .short-input {
-        width: 100%;
+        padding-top: 1vw;
+        padding-left: 1vw;
+        width: 98%;
         height: 5vw;
-        border: 0.06927vw solid var(--primaryColor);
-        border-radius: 0.41666vw;
+        border: 0.2vw solid var(--primaryColor);
+        border-radius: 0.75vw;
     }
 
     .dropdown {
-        width: 100%;
+        padding-left: 1vw;
+        border: 0.2vw solid var(--primaryColor);
+        border-radius: 0.75vw;
+        width: 100.5%;
         height: 5vw;
         margin-bottom: 1.6vw;
         font-family: 'Roboto';
         font-size: 2.2vw;
+    }
+
+    .message {
+        padding-top: 1vw;
+        padding-left: 1vw;
+        margin-top: 0.5557vw;
+        border: 0.2vw solid var(--primaryColor);
+        border-radius: 0.75vw;
+        width: 98%;
+        font-size: 2.2vw;
+    }
+
+    .submit-btn{
+        margin: 0vw;
+        font-size: 2.2vw;
+        line-height: 2.4vw;
+        width: fit-content;
+        height: fit-content;
+
+        border: 0.2vw solid var(--primaryColor);
+        border-radius: 0.75vw;
+        padding: 1vw 2vw;
     }
 }
