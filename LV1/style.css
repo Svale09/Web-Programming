@@ -331,3 +331,22 @@ p.project-desc{
     padding-top: 7.81vw;
 }
 
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7.81vw;
+    margin-bottom: 3.33vw;
+}
+
+#contact-title{
+    margin-top: 1.1109375vw;
+    margin-bottom: 1.6vw;
+}
