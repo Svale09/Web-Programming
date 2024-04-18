@@ -135,12 +135,12 @@ p{
     height: auto;
 }
 
-h3#intro{
+h3#about-intro{
     margin-bottom: 1.09375vw;
     padding: 0;
 }
 
-p#intro{
+p#intro-p{
     margin: 1.09375vw 0vw 2.778vw 0vw;
     padding: 0;
 }
